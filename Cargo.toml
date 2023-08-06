@@ -2,10 +2,11 @@
     name          = "skyscanner"
     version       = "0.1.0"
     edition       = "2021"
-    repository    = "https://github.com/valyagolev/vg-batteries"
-    homepage      = "https://github.com/valyagolev/vg-batteries"
+    license       = "MIT OR Apache-2.0"
+    repository    = "https://github.com/valyagolev/skyscanner"
+    homepage      = "https://github.com/valyagolev/skyscanner"
     description   = "implementation of the Skyscanner Flights live pricing API (3.0)"
-    documentation = "https://docs.rs/vg-batteries"
+    documentation = "https://docs.rs/skyscanner"
 
 [dependencies]
     reqwest      = { version = "0", features = ["json"] }
