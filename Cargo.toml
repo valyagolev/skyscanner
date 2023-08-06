@@ -1,0 +1,22 @@
+[package]
+    name          = "skyscanner"
+    version       = "0.1.0"
+    edition       = "2021"
+    repository    = "https://github.com/valyagolev/vg-batteries"
+    homepage      = "https://github.com/valyagolev/vg-batteries"
+    description   = "implementation of the Skyscanner Flights live pricing API (3.0)"
+    documentation = "https://docs.rs/vg-batteries"
+
+[dependencies]
+    reqwest      = { version = "0", features = ["json"] }
+    serde        = { version = "1", features = ["derive"] }
+    serde_json   = "1"
+    chrono       = "0"
+    once_cell    = "1"
+    rust_decimal = "1"
+    anyhow       = "1"
+    itertools    = "0"
+    futures      = "0"
+
+[dev-dependencies]
+    tokio = { version = "*", features = ["full"] }
